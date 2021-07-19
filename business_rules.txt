@@ -1,0 +1,7 @@
+This is a prototype of a web application for a medical health clinic, where a doctor, a patient or an admin can sign in.
+Patients: it's possible to create, edit or delete their account, as well as schedule, cancel or postpone appointments. It is also possible to view the appointments history. The application also stores exam results for viewing and downloading.
+A patient can send a text message to their doctor and also to the clinic reception and administration.
+Doctors: it's possible to view the appointments history, next appointments, medical notes for each appointment, required exams, exam results, etc. A doctor can also edit their profile.
+A doctor can create their account through an admin invitation. A patient can create an account at the moment they schedule an appointment.
+The application must have a notifications system. A user receives a notification for upcoming appointments, exam results, chat messages, pending payments, successful payments, etc.
+Admin: it will work as a CMS, where it's possible to manage users (patients, doctors, other staff members), manage appointments, exams, messages, notifications, and more.
