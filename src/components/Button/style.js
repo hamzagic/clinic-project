@@ -18,4 +18,5 @@ export const Buttons = styled.button`
     font-size: ${props => props.fontsize};
     font-weight: ${props => props.fontweight};
     border: none;
+    cursor: pointer;
 `;

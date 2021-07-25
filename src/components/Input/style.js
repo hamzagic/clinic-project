@@ -14,10 +14,13 @@ export const Inputs = styled.input`
     border: 1px solid #ccc;
     border-radius: 5px;
     line-height: 30px;
-
+    padding: 2px;
+    font-size: 16px;
+    
     ::placeholder {
         padding-left: 5px;
     }
+
     
 `;
 

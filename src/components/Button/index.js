@@ -9,7 +9,8 @@ const Button = props => {
             width={props.width}
             color={props.color}
             fontweight={props.fontweight}
-            fontsize={props.fontsize}>
+            fontsize={props.fontsize}
+            onClick={props.handleSubmit}>
                 {props.children}
             </Buttons>
         </Container>
