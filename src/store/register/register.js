@@ -15,9 +15,9 @@ const registerSlice = createSlice({
             state.lastName = action.payload.lastName;
             state.email = action.payload.email;
             state.password = action.payload.password;
-            state.isRegistered = true
-        }
-    }
+            state.isRegistered = true;
+        },
+    },
 });
 
 export const { createPayload } = registerSlice.actions;

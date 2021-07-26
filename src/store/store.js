@@ -5,6 +5,6 @@ import loginReducer from './login/login';
 export default configureStore({
     reducer: {
         register: registerReducer,
-        login: loginReducer
-    }
-})
+        login: loginReducer,
+    },
+});

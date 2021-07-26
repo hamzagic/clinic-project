@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
 * {
@@ -19,6 +19,7 @@ export default createGlobalStyle`
   --warning: #ffd656;
   --success: #4fc775;
   --default: #605f97;
+  --sidebar: #F6AE99;
 }
 
 `;

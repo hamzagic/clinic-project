@@ -1,12 +1,14 @@
-import React from 'react'
-import { Container } from './style'
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
+import React from 'react';
+import { Container } from './style';
 
-const Wrapper = props => {
-    return(
-        <Container>
-            {props.children}
-        </Container>
-    )
-}
+const Wrapper = (props) => {
+    return (
+      <Container>
+        {props.children}
+      </Container>
+    );
+};
 
-export default Wrapper
+export default Wrapper;

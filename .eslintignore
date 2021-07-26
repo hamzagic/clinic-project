@@ -1,0 +1,10 @@
+*.min.js
+/node_modules
+__build
+language.js
+*.test.js
+.editorconfig
+package.json
+package-lock.json
+yarn.lock
+/public

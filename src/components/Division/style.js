@@ -1,9 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    max-width: 100vw;
-    align-items: center;
 `;

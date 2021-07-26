@@ -1,18 +1,21 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
+import React from 'react';
 
-import { Container, Texts } from './style'
+import { Container, Texts } from './style';
 
-const Text = props => {
-    return(
-        <Container>
-            <Texts 
-            fontsize={props.fontsize} 
-            fontweight={props.fontweight}
-            padding={props.padding}>
-                {props.children}
-            </Texts>
-        </Container>
-    )
-}
+const Text = (props) => {
+    return (
+      <Container>
+        <Texts
+          fontsize={props.fontsize}
+          fontweight={props.fontweight}
+          padding={props.padding}
+        >
+          {props.children}
+        </Texts>
+      </Container>
+    );
+};
 
-export default Text
+export default Text;

@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
-import { Wrapper } from './style';
+import { Container } from './style';
 
-const Container = (props) => {
+const Division = (props) => {
     return (
-      <Wrapper>{props.children}</Wrapper>
+      <Container>{props.children}</Container>
     );
 };
 
-export default Container;
+export default Division;

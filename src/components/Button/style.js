@@ -1,7 +1,7 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
-    width: ${props => props.width};
+    width: ${(props) => props.width};
     max-width: 100%;
     display: flex;
     justify-content: center;
@@ -9,14 +9,14 @@ export const Container = styled.div`
 `;
 
 export const Buttons = styled.button`
-    width: ${props => props.width};
+    width: ${(props) => props.width};
     max-width: 100%;
     padding: 10px 5px;
-    background: ${props => props.bgColor};
-    color: ${props => props.color};
+    background: ${(props) => props.bgColor};
+    color: ${(props) => props.color};
     border-radius: 5px;
-    font-size: ${props => props.fontsize};
-    font-weight: ${props => props.fontweight};
+    font-size: ${(props) => props.fontsize};
+    font-weight: ${(props) => props.fontweight};
     border: none;
     cursor: pointer;
 `;

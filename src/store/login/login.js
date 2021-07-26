@@ -5,14 +5,14 @@ const loginSlice = createSlice({
     initialState: {
         email: '',
         password: '',
-        logged: false
+        logged: false,
     },
     reducers: {
         login: (state, action) => {
-            state.email = action.payload.email
-            state.logged = true
-        }
-    }
+            state.email = action.payload.email;
+            state.logged = true;
+        },
+    },
 });
 
 export const { login } = loginSlice.actions;

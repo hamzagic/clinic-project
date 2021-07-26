@@ -1,9 +1,10 @@
 // import Sidebar from './components/sidebar/Sidebar';
+import React from 'react';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Main from './pages/Main';
 import GlobalStyles from './styles/GlobalStyles';
-import { Provider } from 'react-redux';
 import store from './store/store';
-import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
