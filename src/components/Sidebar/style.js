@@ -8,7 +8,7 @@ export const Container = styled.div`
   position: absolute;
   left: 0;
   width: 200px;
-  max-width: 100%;
+  max-width: 20vw;
   background-color: var(--sidebar);
   height: 100vh;
   > a {
